@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    # Forcing Docker image 1.2
+    # Forcing Docker image 1.2m without merging before actions
     return "Hello all ACG Students!"
 
 if __name__ == "__main__":
