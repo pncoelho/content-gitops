@@ -3,6 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
+    # Forcing Docker image 1.2
     return "Hello all ACG Students!"
 
 if __name__ == "__main__":
